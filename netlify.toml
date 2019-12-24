@@ -12,3 +12,11 @@
 [context.branch-deploy]
   command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
+[context.madrid2020]
+  command = "hugo --gc --minify -b $URL --environment $HUGO_ENV"
+  publish = "public"
+
+[context.madrid2020.environment]
+  HUGO_ENV = "madrid2020"
+  HUGO_VERSION = "0.55.6"
+  HUGO_ENABLEGITINFO = "true"
