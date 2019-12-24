@@ -1,0 +1,69 @@
+languageCode = "en"
+title = "Kubernetes Community Days Madrid 2020"
+contentDir = "content/_default"
+
+# Theme
+theme = "devfest-theme-hugo"
+
+# Params
+enableEmoji = true
+enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
+
+GoogleAnalytics = "UA-154970155-1"
+
+[params]
+    title = "Kubernetes Community Days Spain"
+    description = "Cloud Native Day is a community-led conference for all Cloud Native applications and platforms"
+    images = ["/images/social-share.jpg"]
+    email = "hello@k8scd.es"
+    keywords = "event, kubernetes, developers, web, cloud"
+    copyright = "We :heart:️ Cloud Native"
+    themeColor = "#326ce5"
+
+[params.social]
+    twitter = "https://twitter.com/kcd_es"
+
+[params.logos]
+    jumbo = "/images/logos/kcd_es.png"
+    header = "/images/logos/kubernetes-community-days-white.png"
+    footer = "/images/logos/netlify-color-accent.svg"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "gh"
+    name = "GitHub"
+    url = "https://github.com/kcd-es/"
+    weight = 100
+
+[languages]
+
+[languages.en]
+    weight = 2
+    languageName = "en"
+
+[taxonomies]
+    tag = "tags"
+
+[privacy]
+    [privacy.disqus]
+        disable = true
+    [privacy.googleAnalytics]
+        anonymizeIP = false
+        disable = false
+        respectDoNotTrack = false
+        useSessionStorage = false
+    [privacy.instagram]
+        disable = true
+        simple = false
+    [privacy.twitter]
+        disable = false
+        enableDNT = false
+        simple = false
+    [privacy.vimeo]
+        disable = true
+        simple = false
+    [privacy.youtube]
+        disable = false
+        privacyEnhanced = false
