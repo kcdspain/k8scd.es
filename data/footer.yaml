@@ -1,0 +1,16 @@
+share:
+  - name: facebook
+    url: https://www.facebook.com/sharer.php?u=https://k8scd.es/
+  - name: twitter
+    url: https://twitter.com/intent/tweet?text=https://k8scd.es/
+
+follow:
+  - name: twitter
+    url: https://twitter.com/kcd_es
+
+content:
+  - title: footer_about
+    links:
+      - nameKey: footer_coc
+        url: /code-of-conduct/
+        newTab: false
