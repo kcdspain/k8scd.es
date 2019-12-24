@@ -1,5 +1,5 @@
 [build]
-  command = "hugo --gc --minify -b $URL"
+  command = "hugo --gc --minify -b $URL --environment ${HUGO_ENV=:main}"
   publish = "public"
 
 [build.environment]
@@ -7,14 +7,10 @@
   HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL --environment ${HUGO_ENV=:main}"
 
 [context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
-
-[context.madrid2020]
-  command = "hugo --gc --minify -b $URL --environment $HUGO_ENV"
-  publish = "public"
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL --environment ${HUGO_ENV=:main}"
 
 [context.madrid2020.environment]
   HUGO_ENV = "madrid2020"
