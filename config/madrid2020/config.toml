@@ -1,0 +1,10 @@
+title = "Kubernetes Community Days Madrid 2020"
+contentDir = "content/madrid2020"
+
+[params]
+    title = "Kubernetes Community Days Madrid 2020"
+    date = "2020"
+    description = "Cloud Native Day is a community-led conference for all Cloud Native applications and platforms"
+
+[params.logos]
+    jumbo = "/images/logos/kcd_es_madrid2020.png"
