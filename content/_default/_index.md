@@ -8,7 +8,7 @@ menu:
 {{% jumbo img="/images/backgrounds/willian-justen-de-vasconcellos-7vKP5BAm8wg-unsplash.jpg" imgLabel="Málaga by Willian Justen de Vasconcellos on Unsplash" %}}
 
 
-<a class="btn primary btn-lg" style="margin-top: 1em;" href="https://github.com/cncf/kubernetes-community-days/issues/231" target="_blank">
+<a class="btn primary btn-lg" style="margin-top: 1em;" href="https://github.com/kcd-es/spain-2021" target="_blank">
   {{% icon "github" %}}
   &nbsp; Get involved
 </a>
